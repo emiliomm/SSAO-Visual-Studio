@@ -1,0 +1,25 @@
+﻿Build started 01/10/2017 19:18:49.
+     1>Project "D:\Emilio\Documents\GitHub\SSAO-Visual-Studio\SSAO\SSAO.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(686): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(706): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(712): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(820): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(838): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(983): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(993): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(1032): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>d:\emilio\documents\github\ssao-visual-studio\ssao\source.cpp(1033): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         D:\Program Files\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Emilio\Documents\GitHub\SSAO-Visual-Studio\Debug\SSAO.exe" /INCREMENTAL /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Emilio\Documents\GitHub\SSAO-Visual-Studio\Debug\SSAO.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Emilio\Documents\GitHub\SSAO-Visual-Studio\Debug\SSAO.lib" /MACHINE:X86 Debug\Source.obj
+         SSAO.vcxproj -> D:\Emilio\Documents\GitHub\SSAO-Visual-Studio\Debug\SSAO.exe
+     1>Done Building Project "D:\Emilio\Documents\GitHub\SSAO-Visual-Studio\SSAO\SSAO.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44
